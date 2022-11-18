@@ -17,9 +17,13 @@ namespace Atividade_TPA
                 Console.WriteLine("Digite o nome de um time de futebol:");
                 nome = Console.ReadLine();
    
-                Console.WriteLine("Digite o ponto desse time:");
+                Console.WriteLine("Digite a pontuação desse time:");
                 pt = int.Parse(Console.ReadLine());
+            
+            Console.WriteLine(nome + " tem " +pt+ " pontos.");
+            Console.WriteLine();
             }
+
             Console.ReadKey();
         }
     }
